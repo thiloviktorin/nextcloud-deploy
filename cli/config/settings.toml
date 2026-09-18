@@ -1,0 +1,9 @@
+[default]
+[default.nextcloud]
+domain=""
+
+[development]
+
+[testing]
+
+[production]
