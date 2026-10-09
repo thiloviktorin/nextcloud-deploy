@@ -1,8 +1,11 @@
 [default]
 [default.nextcloud]
 domain=""
+admin_mail=""
 
 [development]
+[development.nextcloud]
+admin_mail="test"
 
 [testing]
 

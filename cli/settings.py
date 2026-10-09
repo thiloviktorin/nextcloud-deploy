@@ -10,6 +10,7 @@ class NextcloudSettings(BaseModel):
     """
 
     domain: str
+    admin_mail: str
 
 
 class Settings(BaseModel):
