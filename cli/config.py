@@ -1,5 +1,8 @@
-from dynaconf import Dynaconf
+"""Config file for CLI"""
+
 from pathlib import Path
+
+from dynaconf import Dynaconf
 
 BASE_PATH = Path(__file__).parent.parent.resolve()
 CONFIG_PATH = BASE_PATH / "cli" / "config"
